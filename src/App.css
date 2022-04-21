@@ -10,3 +10,7 @@ header {
   padding: 1rem .5rem;
   color: slateblue;
 }
+
+.hero {
+  max-height: 100vh;
+}

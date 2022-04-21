@@ -13,6 +13,13 @@ function App() {
           </ul>
         </nav>
       </header>
+      <div className="hero">
+        <div className="centered">
+          <h1>Get Ahead in Business</h1>
+          <h2>Clear, persuasive content</h2>
+          <p>Drive growth by making the most of your communications. </p>
+        </div>
+      </div>
     </div>
   );
 }
