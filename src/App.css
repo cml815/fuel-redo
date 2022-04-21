@@ -1,0 +1,12 @@
+header {
+  padding: 1rem 0;
+}
+.navMain {
+  display: flex;
+  justify-content: right;
+}
+
+.navMain > li {
+  padding: 1rem .5rem;
+  color: slateblue;
+}
