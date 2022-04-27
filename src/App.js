@@ -9,10 +9,10 @@ function App() {
         <nav>
           <ul className="navMain">
             <li>
-              <Link to ="grant-guide">Grant Guide</Link>
+              <Link to ="guide">Grant Guide</Link>
             </li>
             <li>
-              <Link to="content-templates"> Content Templates</Link> 
+              <Link to="templates"> Content Templates</Link> 
               </li>
             <li>
               <Link to ="portfolio">Portfolio</Link>
