@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
 
@@ -7,9 +8,15 @@ function App() {
       <header className="">
         <nav>
           <ul className="navMain">
-            <li>Grant Writing</li>
-            <li>Content Marketing</li>
-            <li>Technical Writing</li>
+            <li>
+              <Link to ="grant-guide">Grant Guide</Link>
+            </li>
+            <li>
+              <Link to="content-templates"> Content Templates</Link> 
+              </li>
+            <li>
+              <Link to ="portfolio">Portfolio</Link>
+            </li>
           </ul>
         </nav>
       </header>
