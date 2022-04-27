@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
 
@@ -19,6 +19,7 @@ function App() {
             </li>
           </ul>
         </nav>
+        <Outlet />
       </header>
       <div className="hero">
         <div className="centered">
