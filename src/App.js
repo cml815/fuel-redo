@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="appWrap">
       <header className="">
         <nav>
           <ul className="navMain">
@@ -23,8 +23,8 @@ function App() {
       <div className="hero">
         <div className="centered">
           <h1>Grants Guide</h1>
-          <h2>A leg up for writing a grant application.</h2>
-          <p>For science, medical and health projects</p>
+          <p>concise tagline</p>
+          <h2>Science, medical and health projects</h2>
           <p> This site contains articles and bookmarks to save you time.</p>
         </div>
       </div>
