@@ -1,5 +1,4 @@
 import { Link, Outlet } from 'react-router-dom';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -23,9 +22,10 @@ function App() {
       </header>
       <div className="hero">
         <div className="centered">
-          <h1>Get Ahead in Business</h1>
-          <h2>Clear, persuasive content</h2>
-          <p>Drive growth by making the most of your communications. </p>
+          <h1>Grants Guide</h1>
+          <h2>A leg up for writing a grant application.</h2>
+          <p>For science, medical and health projects</p>
+          <p> This site contains articles and bookmarks to save you time.</p>
         </div>
       </div>
     </div>
