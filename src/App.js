@@ -11,10 +11,10 @@ function App() {
               <Link to ="guide">Grant Guide</Link>
             </li>
             <li>
-              <Link to="templates"> Content Templates</Link> 
+              <Link to="templates"> Grant Templates</Link> 
               </li>
             <li>
-              <Link to ="portfolio">Portfolio</Link>
+              <Link to ="about">About Us</Link>
             </li>
           </ul>
         </nav>

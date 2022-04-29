@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './global.css';
 import App from './App';
 import Templates from "./routes/templates";
-import Portfolio from "./routes/portfolio";
+import About from "./routes/about";
 import Guide from "./routes/guide";
 import reportWebVitals from './reportWebVitals';
 
@@ -15,7 +15,7 @@ root.render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/guide" element={ <Guide />} />
-        <Route path="/portfolio" element={ <Portfolio />} />
+        <Route path="/about" element={ <About />} />
         <Route path="/templates" element= { <Templates />} />
       </Routes>
     </Router>
