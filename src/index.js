@@ -14,7 +14,10 @@ root.render(
     <Router>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/guide" element={ <Guide />} />
+        <Route path="/guide" element={ <Guide />}>
+          <Route path="/beginners" element={<Beginners />} />
+          <Route path="/sbir" element={<Sbir/>}></Route>
+        </Route>
         <Route path="/about" element={ <About />} />
         <Route path="/templates" element= { <Templates />} />
       </Routes>

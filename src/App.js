@@ -25,7 +25,7 @@ function App() {
       <section className="hero">
         <div className="heroContainer">
           <div className="heroText">
-            <h1 className="display">Grants Guide</h1>
+            <h1 className="xl">Grants Guide</h1>
             <p>concise tagline</p>
             <h2>Science, medical and health projects</h2>
             <p> This site contains articles and bookmarks to save you time.</p>

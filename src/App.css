@@ -28,5 +28,5 @@ header {
 }
 
 .heroText {
-  width: calc(100% - 100px);
+  width: 80%;
 }
