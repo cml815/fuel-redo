@@ -1,5 +1,6 @@
 import { Link, Outlet } from 'react-router-dom';
 import './App.css';
+import './utils.css';
 
 function App() {
   return (
@@ -17,17 +18,20 @@ function App() {
               <Link to ="about">About Us</Link>
             </li>
           </ul>
+          <hr />
         </nav>
         <Outlet />
       </header>
-      <div className="hero">
-        <div className="centered">
-          <h1>Grants Guide</h1>
-          <p>concise tagline</p>
-          <h2>Science, medical and health projects</h2>
-          <p> This site contains articles and bookmarks to save you time.</p>
+      <section className="hero">
+        <div className="heroContainer">
+          <div className="heroText">
+            <h1 className="display">Grants Guide</h1>
+            <p>concise tagline</p>
+            <h2>Science, medical and health projects</h2>
+            <p> This site contains articles and bookmarks to save you time.</p>
         </div>
-      </div>
+        </div>
+      </section>
     </div>
   );
 }

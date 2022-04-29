@@ -21,6 +21,10 @@ code {
     monospace;
 }
 
+hr {
+  border: 1px solid #ddd;
+}
+
 ul, ol, li {
   list-style-type: none;
 }

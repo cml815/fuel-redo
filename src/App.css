@@ -17,5 +17,16 @@ header {
 }
 
 .hero {
-  max-height: 100vh;
+  height: 75vh;
+}
+
+.heroContainer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.heroText {
+  width: calc(100% - 100px);
 }

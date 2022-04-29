@@ -2,6 +2,8 @@
   display: flex;
 }
 
-.centered {
-  
+.display {
+  font-size: 1.8em;
+  color: green;
+  font-weight: 700;
 }
