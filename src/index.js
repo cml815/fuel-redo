@@ -6,6 +6,8 @@ import App from './App';
 import Templates from "./routes/templates";
 import About from "./routes/about";
 import Guide from "./routes/guide";
+import Beginners from "./routes/beginners";
+import Sbir from "./routes/sbir";
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,8 +17,8 @@ root.render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/guide" element={ <Guide />}>
-          <Route path="/beginners" element={<Beginners />} />
-          <Route path="/sbir" element={<Sbir/>}></Route>
+          <Route path="guide/beginners" element={<Beginners />} />
+          <Route path="guide/sbir" element={<Sbir/>}></Route>
         </Route>
         <Route path="/about" element={ <About />} />
         <Route path="/templates" element= { <Templates />} />
