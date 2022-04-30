@@ -30,3 +30,9 @@ header {
 .heroText {
   width: 80%;
 }
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  padding: 2em 2em 0 .5em;
+}
