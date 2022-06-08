@@ -15,8 +15,12 @@ root.render(
   <React.StrictMode>
     <Router>
       <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/guide" element={ <Guide />} />
+        <Route path="/" element={<App />}>
+          <Route path="/guide" element={ <Guide />}>
+            <Route path="/guide/beginners" element={ <Beginners />} />
+            <Route path="/guide/sbir" element={ <Sbir />} />
+          </Route>
+        </Route>
         <Route path="/about" element={ <About />} />
         <Route path="/templates" element= { <Templates />} />
       </Routes>
