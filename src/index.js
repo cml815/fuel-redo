@@ -19,6 +19,7 @@ root.render(
           <Route path="/guide" element={ <Guide />}>
             <Route path="/guide/beginners" element={ <Beginners />} />
             <Route path="/guide/sbir" element={ <Sbir />} />
+            {/* <Route exact path="/post/:id" render={props => <Post {...props} />} /> */}
           </Route>
         </Route>
         <Route path="/about" element={ <About />} />
