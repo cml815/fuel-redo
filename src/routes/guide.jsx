@@ -9,8 +9,8 @@ export default function Guide() {
     <>
       <div className="flex">
         <nav className="sidebar">
-          <Link to="/sbir">SBIR</Link> {" "}
-          <Link to="/beginners">Beginners Guide</Link> {" "}
+          <Link to="/guide/sbir">SBIR</Link> {" "}
+          <Link to="/guide/beginners">Beginners Guide</Link> {" "}
           <Link to="/templates">Templates</Link>{" "}
         </nav>
         <h2>Grant Guide</h2>
