@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './global.css';
 import App from './App';
-import Layout from './components/Layout';
+import Layout from './components/Layout'
 import Templates from "./routes/templates";
 import About from "./routes/about";
 import Guide from "./routes/guide";
@@ -16,7 +16,6 @@ root.render(
   <React.StrictMode>
     <Router>
       <Routes>
-        <Route element={<Layout />}>
           <Route path="/" element={<App />} />
             <Route path="/guide" element={ <Guide />}>
               <Route path="/guide/beginners" element={ <Beginners />} />
@@ -25,7 +24,6 @@ root.render(
             </Route>
           <Route path="/about" element={ <About />} />
           <Route path="/templates" element= { <Templates />} />
-        </Route>
       </Routes>
     </Router>
   </React.StrictMode>
