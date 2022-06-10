@@ -1,4 +1,5 @@
-import { Link, Outlet } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
+import MainNav from './components/MainNav';
 import './App.css';
 import './global.css';
 import './utils.css';
@@ -7,20 +8,7 @@ function App() {
   return (
     <div className="appWrap">
       <header className="">
-        <nav>
-          <ul className="navMain">
-            <li>
-              <Link to ="guide">Grant Guide</Link>
-            </li>
-            <li>
-              <Link to="templates"> Grant Templates</Link> 
-              </li>
-            <li>
-              <Link to ="about">About Us</Link>
-            </li>
-          </ul>
-          <hr />
-        </nav>
+        <MainNav />
         <Outlet />
       </header>
       <section className="hero">
