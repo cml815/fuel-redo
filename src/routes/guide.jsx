@@ -3,10 +3,15 @@ import '../App.css';
 import '../global.css';
 import '../utils.css';
 import '../content.md';
+import MainNav from '../components/MainNav';
 
 export default function Guide() {
   return (
     <>
+    <header className="">
+        <MainNav />
+        <Outlet />
+      </header>
       <div className="flex">
         <nav className="sidebar">
           <Link to="/guide/sbir">SBIR</Link> {" "}
