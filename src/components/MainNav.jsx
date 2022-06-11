@@ -6,6 +6,10 @@ export default function MainNav() {
     <nav>
           <ul className="navMain">
             <li>
+              <Link to="/"><img src="../favicon-32x32.png" />
+              </Link>
+            </li>
+            <li>
               <Link to ="guide">Grant Guide</Link>
             </li>
             <li>

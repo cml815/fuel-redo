@@ -4,6 +4,7 @@ import '../global.css';
 import '../utils.css';
 import '../content.md';
 import MainNav from '../components/MainNav';
+import Posts from '../components/Posts/Posts';
 
 export default function Guide() {
   return (
@@ -19,6 +20,7 @@ export default function Guide() {
           <Link to="/templates">Templates</Link>{" "}
         </nav>
         <h2>Grant Guide</h2>
+        <Posts />
       </div>
       <Outlet />
      
