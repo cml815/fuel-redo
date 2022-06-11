@@ -9,6 +9,7 @@ import About from "./routes/about";
 import Guide from "./routes/guide";
 import Beginners from "./routes/beginners";
 import Sbir from "./routes/sbir";
+import NotFound from './components/NotFound';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -21,9 +22,11 @@ root.render(
               <Route path="/guide/beginners" element={ <Beginners />} />
               <Route path="/guide/sbir" element={ <Sbir />} />
               {/* <Route exact path="/post/:id" render={props => <Post {...props} />} /> */}
+              <Route path="*" element={ <NotFound />} />
             </Route>
           <Route path="/about" element={ <About />} />
           <Route path="/templates" element= { <Templates />} />
+          <Route path="*" element={ <NotFound />} />
       </Routes>
     </Router>
   </React.StrictMode>
